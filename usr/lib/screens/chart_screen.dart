@@ -44,7 +44,7 @@ class RpnChartScreen extends StatelessWidget {
                         barTouchData: BarTouchData(
                           enabled: true,
                           touchTooltipData: BarTouchTooltipData(
-                            getTooltipColor: (group) => Colors.blueGrey,
+                            tooltipBgColor: Colors.blueGrey,
                             getTooltipItem: (group, groupIndex, rod, rodIndex) {
                               String label = displayItems[group.x.toInt()].failureMode;
                               return BarTooltipItem(
